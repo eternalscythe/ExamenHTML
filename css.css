@@ -13,13 +13,6 @@ body {
     height: 100vh;
 }
 
-img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-}
-
 .Vuelta{
     height: 100%;
     width: 100%;
@@ -69,6 +62,7 @@ img {
         font-size:calc(0.7em + 0.5vw + 0.5vh);
     }
 }
+
 
 
 
