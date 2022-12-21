@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Contenido{
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.Vuelta{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.Contenido:hover .Vuelta{
+    transform: rotateY(180deg);
+}
+
+.Contenido:active .Vuelta{
+    transform: rotateY(180deg);
+}
+
+.Frente, .Detras{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Detras {
+    background-color: gainsboro;
+    color:green;
+    font-style: oblique;
+    text-shadow: 1px, 1px goldenrod;
+    font-size:calc(1.2em + 1vw + 1vh);
+    font-weight: bold;
+    z-index: 2;
+    transform: rotateY(180deg);
+}
+
+@media screen and (orientation:landscape) {
+    .Contenido {
+        width: 70vh;
+        margin-left:calc(50vw - 35vh)
+    }
+}
+
+@media screen and (max-height:400px) {
+    .Detras {
+        font-size:calc(0.7em + 0.5vw + 0.5vh);
+    }
+}
+
+
+
