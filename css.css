@@ -21,13 +21,15 @@ body {
     transform-style: preserve-3d;
 }
 
-.Contenido:hover .Vuelta{
+/*.Contenido:hover .Vuelta{
     transform: rotateY(180deg);
-}
+}*/
 
 .Contenido:active .Vuelta{
     transform: rotateY(180deg);
 }
+
+
 
 .Frente, .Detras{
     position: absolute;

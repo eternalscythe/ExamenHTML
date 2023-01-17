@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cancion>
+    <datos> 
+    <titulo>Soldadito Marinero</titulo>
+    <autor>Fito &amp; Fitipaldi</autor>
+    </datos>
+    <estrofa>
+         <verso>El camina despacito que las prisas no son buenas</verso>
+         <verso>En su brazo dobladita, con cuidado la chaqueta</verso>
+         <verso>Luego pasa por la calle donde los chavales juegan</verso>
+         <verso>El también quiso ser niño pero le pillo la guerra</verso>
+     </estrofa>
+    <estrofa>
+         <verso>Soldadito marinero conociste a una sirena</verso>
+          <verso>De esas que dicen te quiero si ven la cartera llena</verso>
+         <verso>Escogiste a la mas guapa y a la menos buena</verso>
+         <verso>Sin saber como ha venido te ha cogido la tormenta</verso>
+    </estrofa>
+     <estrofa>
+          <verso>El queria cruzar los mares y olvidar a su sirena</verso>
+          <verso>La verdad, no fue dificil cuando conocio a Mariela</verso>
+          <verso>Que tenia los ojos verdes y un negocio entre las piernas</verso>
+           <verso>Hay que ver que punteria, no te arrimas a una buena</verso>
+     </estrofa>
+     <estrofa>
+          <verso>Soldadito marinero conociste a una sirena</verso>
+          <verso>De esas que dicen te quiero si ven la cartera llena</verso>
+          <verso>Escogiste a la mas guapa y a la menos buena</verso>
+           <verso>Sin saber como ha venido te ha cogido la tormenta</verso>
+     </estrofa>
+    
+</cancion>
