@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-sylesheet type="text/xsl" href="cancion.xsl"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
 <cancion>
     <datos> 
          <titulo>Soldadito Marinero</titulo>
