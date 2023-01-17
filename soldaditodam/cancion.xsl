@@ -11,6 +11,7 @@
 				<p>(Autor: <xsl:value-of select="cancion/datos/autor"/>)</p>
 				<br/>
 				<xsl:for-each select="cancion/estrofa">
+					<xsl:sort select="orden"/>
 					<xsl:for-each select="verso">
 					<p><xsl:value-of select="."/></p>
 					</xsl:for-each>
