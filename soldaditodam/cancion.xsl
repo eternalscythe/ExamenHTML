@@ -6,9 +6,7 @@
 				
 			</head>
 			<body>
-				<h2>
-					Cancion:
-				</h2>
+				<h2>Cancion:</h2>
 			</body>
 		</html>
 	</xsl:template>
